@@ -1,0 +1,16 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"label": "Rodar FastAPI com Uvicorn",
+			"command": "/Users/flavioazoup/AzoupAPI/AzoupAPI/.venv/bin/uvicorn",
+			"args": [
+				"app.main:app",
+				"--reload"
+			],
+			"group": "build",
+			"problemMatcher": []
+		}
+	]
+}

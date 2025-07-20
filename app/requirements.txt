@@ -1,0 +1,13 @@
+fastapi
+uvicorn[standard]
+sqlalchemy==1.4.53
+sqlalchemy-firebird==0.8.0
+alembic
+pydantic
+python-jose[cryptography]
+redis
+celery
+prometheus-client
+fdb
+passlib[bcrypt]
+python-multipart
